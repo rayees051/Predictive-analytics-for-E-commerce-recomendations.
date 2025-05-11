@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib as jb
 from sklearn.neighbors import NearestNeighbors
 
 # Load model and data (cache to make it faster)
 @st.cache_resource
 def load_model():
-    return joblib.load('knn_model.pkl')
+    return jb.load('knn_model.pkl')
 
 @st.cache_data
 def load_data():
