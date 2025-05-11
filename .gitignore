@@ -1,0 +1,25 @@
+# Ignore Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large model files
+*.pkl
+
+# Ignore large datasets
+*.csv
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore Streamlit generated files
+.streamlit/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
